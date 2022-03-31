@@ -9,7 +9,7 @@ let numOfHighlights = 0;
 //function started by button
 function startGame() {
  document.querySelector('main').innerHTML = `<div id="gameText"></div>`;
-  textGenerator(`Thanks for checking this codepen out. The way it works is the function {textGenerator} takes string and splits it into a bunch of span elements, which initially have an opacity of 0. Then, at a set rate, a function by the name of {onTick} is ran repeatedly, iterating through the span elements and adding a class that makes them appear. It's doing that as we speak! As you have probably already seen by now, it can also {highlight} things. The function {highlighter} looks for span that contains curly braces. Any elements between those curly braces get the class {highlighter}. So, what do you think?`);
+  textGenerator(`Thanks for checking this github out. The way it works is the function {textGenerator} takes string and splits it into a bunch of span elements, which initially have an opacity of 0. Then, at a set rate, a function by the name of {onTick} is ran repeatedly, iterating through the span elements and adding a class that makes them appear. It's doing that as we speak! As you have probably already seen by now, it can also {highlight} things. The function {highlighter} looks for span that contains curly braces. Any elements between those curly braces get the class {highlighter}. So, what do you think?`);
   
 };
 
